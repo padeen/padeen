@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'nl'
+title = 'Developer Portfolio: Paulo Deen'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Pragmatische Boekenplank 2024'
+pageRef = '/books'
+weight = 20
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 30
+
+[[menus.main]]
+name = 'Projecten'
+pageRef = '/projects'
+weight = 40
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 50
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
