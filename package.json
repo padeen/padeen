@@ -1,0 +1,12 @@
+{
+  "name": "padeen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:hugo": "hugo server --disableFastRender --bind 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
