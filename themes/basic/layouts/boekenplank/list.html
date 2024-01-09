@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range first 2 .Pages }}
+    <h2>{{ .Title }}</h2>
+    {{ .Summary }}
+  {{ end }}
+  <h1>Boekenplank 2023</h1>
+  {{ range last 2 .Pages }}
+    <h2>{{ .Title }}</h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

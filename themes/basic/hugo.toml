@@ -4,7 +4,7 @@ title = 'Developer Portfolio: Paulo Deen'
 
 [[menus.main]]
 name = 'Projecten'
-pageRef = '/projecten'
+pageRef = '/'
 weight = 10
 
 [[menus.main]]

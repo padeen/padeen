@@ -1,7 +1,12 @@
 {{ define "main" }}
+  <h1>{{ site.Title }}</h1>
+  <p>Gedreven developer</p>
+  <p>|> Sterke fundamentals(Docker, Frontend, Backend)</p>
+  <p>|> Taalvaardig(Nederlands, Engels)</p>
+  <p>|> Klaar om die upgrade te maken</p>
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ range where site.RegularPages "Section" "projecten"}}
+    <h2>{{ .Title }}</h2>
     {{ .Summary }}
   {{ end }}
 {{ end }}
