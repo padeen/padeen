@@ -445,11 +445,21 @@ video {
 }
 
 h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
 }
 
 p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 *, ::before, ::after {

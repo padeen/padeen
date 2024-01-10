@@ -3,11 +3,11 @@
   {{ .Content }}
   {{ range first 2 .Pages }}
     <h2>{{ .Title }}</h2>
-    {{ .Summary }}
+    <p>{{ .Summary }}</p>
   {{ end }}
-  <h1>Boekenplank 2023</h1>
+  <h2>Extra boeken die het vermelden waard zijn</h2>
   {{ range last 2 .Pages }}
     <h2>{{ .Title }}</h2>
-    {{ .Summary }}
+    <p>{{ .Summary }}</p>
   {{ end }}
 {{ end }}

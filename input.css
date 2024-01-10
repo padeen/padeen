@@ -4,8 +4,14 @@
 
 @layer base {
   h1 {
-    @apply text-4xl;
+    font-family: 'Montserrat', sans-serif;
+    @apply text-4xl font-semibold;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    @apply text-3xl font-semibold;
   }
   p {
+    font-family: 'Montserrat', sans-serif;
   }
 }

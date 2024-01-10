@@ -7,6 +7,6 @@
   {{ .Content }}
   {{ range where site.RegularPages "Section" "projecten"}}
     <h2>{{ .Title }}</h2>
-    {{ .Summary }}
+    <p>{{ .Summary }}</p>
   {{ end }}
 {{ end }}
