@@ -1,21 +1,29 @@
 {{ define "main" }}
+<div class="flex flex-col space-y-6">
 <h1>{{ .Title }}</h1>
 {{ .Content }} {{ range first 2 .Pages }}
+<h2>{{ .Title }}</h2>
+<div class="flex flex-row items-center justify-items space-x-8">
 <img
   src="{{ .Params.Bookcover }}"
-  class="mx-auto h-32 object-cover md:h-20"
+  class="mx-auto h-48 object-cover"
   alt="{{ .Params.Bookcoveralt }}"
 />
-<h2>{{ .Title }}</h2>
 <p>{{ .Summary }}</p>
+</div>
 {{ end }}
 <h2>Boeken 2023</h2>
 {{ range last 2 .Pages }}
+<div class="flex flex-col space-y-6">
+<h2>{{ .Title }}</h2>
+<div class="flex flex-row space-x-8">
 <img
   src="{{ .Params.Bookcover }}"
-  class="mx-auto h-32 object-cover md:h-20"
+  class="mx-auto h-48 object-cover"
   alt="{{ .Params.Bookcoveralt }}"
 />
-<h2>{{ .Title }}</h2>
 <p>{{ .Summary }}</p>
+</div>
+</div>
+</div>
 {{ end }} {{ end }}
