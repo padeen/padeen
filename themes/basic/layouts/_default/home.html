@@ -1,12 +1,13 @@
 {{ define "main" }}
-  <h1>{{ site.Title }}</h1>
-  <p>Gedreven developer</p>
-  <p>|> Sterke fundamentals(Docker, Frontend, Backend)</p>
-  <p>|> Taalvaardig(Nederlands, Engels)</p>
-  <p>|> Klaar om die upgrade te maken</p>
-  {{ .Content }}
-  {{ range where site.RegularPages "Section" "projecten"}}
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Summary }}</p>
-  {{ end }}
-{{ end }}
+<h1>Projecten</h1>
+{{ .Content }} {{ range where site.RegularPages "Section" "projecten"}}
+<h2>{{ .Title }}</h2>
+<p>
+  Tools: {{ $len := (len .Params.Technologies) }} {{ range first (sub $len 1)
+  .Params.Technologies }} {{ . }}, {{ end }} {{ range last 1
+  .Params.Technologies }} {{ . }} {{ end }}
+</p>
+<p>{{ .Summary }}</p>
+<a href="{{ .Params.Live }}">Live</a>
+<a href="{{ .Params.Github }}">Github</a>
+{{ end }} {{ end }}

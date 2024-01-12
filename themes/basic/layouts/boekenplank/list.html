@@ -1,13 +1,21 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range first 2 .Pages }}
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Summary }}</p>
-  {{ end }}
-  <h2>Extra boeken die het vermelden waard zijn</h2>
-  {{ range last 2 .Pages }}
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Summary }}</p>
-  {{ end }}
+<h1>{{ .Title }}</h1>
+{{ .Content }} {{ range first 2 .Pages }}
+<img
+  src="{{ .Params.Bookcover }}"
+  class="mx-auto h-32 object-cover md:h-20"
+  alt="{{ .Params.Bookcoveralt }}"
+/>
+<h2>{{ .Title }}</h2>
+<p>{{ .Summary }}</p>
 {{ end }}
+<h2>Boeken 2023</h2>
+{{ range last 2 .Pages }}
+<img
+  src="{{ .Params.Bookcover }}"
+  class="mx-auto h-32 object-cover md:h-20"
+  alt="{{ .Params.Bookcoveralt }}"
+/>
+<h2>{{ .Title }}</h2>
+<p>{{ .Summary }}</p>
+{{ end }} {{ end }}

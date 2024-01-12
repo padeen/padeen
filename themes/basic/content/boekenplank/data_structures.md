@@ -2,6 +2,8 @@
 title = 'A Common-Sense Guide to Data Structures and Algorithms'
 date = 2024-01-08T17:11:17Z
 draft = false
+bookcover = 'https://firebasestorage.googleapis.com/v0/b/svelte-starter-8ef85.appspot.com/o/images%2Fjwdsal2-375.jpg?alt=media&token=50507657-019c-45eb-8312-3a82bb203a47'
+bookcover_alt = 'A Common-Sense Guide to Data Structures and Algorithms'
 +++
 
 Na ervaring te hebben opgedaan met diverse programmeertalen en webframeworks komt het moment waarop ik

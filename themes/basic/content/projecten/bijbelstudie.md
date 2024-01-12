@@ -2,13 +2,12 @@
 title = 'Persoonlijke Bijbelstudie'
 date = 2024-01-08T17:02:05Z
 draft = false
+technologies = ['Hugo', 'Ruby', 'Nokogiri', 'Tailwindcss']
+github = 'https://github.com/padeen/bijbelstudie'
+live = 'https://bijbelstudie.ohmyweb.nl/eeuwig_gelukkig'
 +++
 
-Technologies: Hugo, Ruby, Nokogiri
-
-Tags: Static Site Generator
-
-**Description**
+**Omschrijving:**
 
 Statische website om wekelijkse studiebijeenkomsten voor te bereiden. Wekelijks kom ik met mensen uit mijn gemeente bij elkaar om samen de
 Bijbel de bestuderen. Omdat de bijeenkomsten een vaste structuur volgen heb ik het Hugo Framework gekozen om mijn persoonlijke voorbereidingen

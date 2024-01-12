@@ -2,13 +2,12 @@
 title = 'Newsleezer'
 date = 2024-01-08T17:04:59Z
 draft = false
+technologies = ['Elixir', 'Phoenix Liveview', 'Floki']
+live = 'https://padeen.vercel.app'
+github = 'https://github.com/padeen/chess_engine'
 +++
 
-Technologies: Elixir, Phoenix Liveview, Ecto, Floki
-
-Tags: Fullstack Framework
-
-**Description:**
+**Omschrijving:**
 
 Deze fullstack webapp zorgt ervoor dat je sneller op de hoogte bent van het laatste nieuws. Als je naar een website toe gaat om
 informatie op te halen dan moet je vanwege reclamebanners, afbeeldingen en filmpjes vaak meerdere keren scrollen om een
