@@ -2,6 +2,7 @@
 title = 'Programming Phoenix LiveView'
 date = 2024-01-08T17:10:02Z
 draft = false
+weight = 40
 bookcover = 'https://firebasestorage.googleapis.com/v0/b/svelte-starter-8ef85.appspot.com/o/images%2Fliveview-beta-375.jpg?alt=media&token=81683fb1-7aee-4a92-920c-9162c1bf7e71'
 bookcover_alt = 'Programming Phoenix LiveView'
 +++

@@ -475,6 +475,17 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+a:visited {
+  color: rgb(59 130 246 );
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -588,6 +599,26 @@ p {
   margin-right: auto;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-3\.5 {
+  margin-top: 0.875rem;
+  margin-bottom: 0.875rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-2\.5 {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
 .block {
   display: block;
 }
@@ -604,12 +635,12 @@ p {
   height: 100vh;
 }
 
-.w-full {
-  width: 100%;
+.max-w-4xl {
+  max-width: 56rem;
 }
 
-.w-screen {
-  width: 100vw;
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .flex-row {
@@ -622,6 +653,18 @@ p {
 
 .items-center {
   align-items: center;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-2\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.625rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.625rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -655,35 +698,13 @@ p {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .text-purple-400 {
@@ -699,5 +720,10 @@ p {
 @media (min-width: 768px) {
   .md\:sticky {
     position: sticky;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -1,13 +1,20 @@
 {{ define "main" }}
-<h1>Projecten</h1>
-{{ .Content }} {{ range where site.RegularPages "Section" "projecten"}}
-<h3>{{ .Title }}</h3>
-<p>
-  Tools: {{ $len := (len .Params.Technologies) }} {{ range first (sub $len 1)
-  .Params.Technologies }} {{ . }}, {{ end }} {{ range last 1
-  .Params.Technologies }} {{ . }} {{ end }}
-</p>
-<p>{{ .Summary }}</p>
-<a href="{{ .Params.Live }}">Live</a>
-<a href="{{ .Params.Github }}">Github</a>
+  <h1>Projecten</h1>
+  {{ .Content }} 
+  {{ range where site.RegularPages "Section" "projecten"}}
+  <h3>{{ .Title }}</h3>
+  <p>
+    Tools: {{ $len := (len .Params.Technologies) }} 
+    {{ range first (sub $len 1) .Params.Technologies }} 
+    {{ . }}, 
+    {{ end }} 
+    {{ range last 1 .Params.Technologies }} 
+    {{ . }} 
+    {{ end }}
+  </p>
+  <p>{{ .Summary }}</p>
+  <div class="flex flex-row space-x-2.5">
+    <a href="{{ .Params.Live }}">Live</a>
+    <a href="{{ .Params.Github }}">Github</a>
+  </div>
 {{ end }} {{ end }}

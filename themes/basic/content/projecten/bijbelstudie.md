@@ -2,6 +2,7 @@
 title = 'Persoonlijke Bijbelstudie'
 date = 2024-01-08T17:02:05Z
 draft = false
+weight = 30
 technologies = ['Hugo', 'Ruby', 'Nokogiri', 'Tailwindcss']
 github = 'https://github.com/padeen/bijbelstudie'
 live = 'https://bijbelstudie.ohmyweb.nl/eeuwig_gelukkig'

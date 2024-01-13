@@ -2,6 +2,7 @@
 title = 'Newsleezer'
 date = 2024-01-08T17:04:59Z
 draft = false
+weight = 10
 technologies = ['Elixir', 'Phoenix Liveview', 'Floki']
 live = 'https://padeen.vercel.app'
 github = 'https://github.com/padeen/chess_engine'

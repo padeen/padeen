@@ -21,4 +21,9 @@
   p {
     font-family: 'Montserrat', sans-serif;
   }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-bold text-blue-500 visited:text-blue-500;
+  }
 }
