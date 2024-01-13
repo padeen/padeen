@@ -6,7 +6,7 @@ bookcover = 'https://firebasestorage.googleapis.com/v0/b/svelte-starter-8ef85.ap
 bookcover_alt = 'A Common-Sense Guide to Data Structures and Algorithms'
 +++
 
-Na ervaring te hebben opgedaan met diverse programmeertalen en webframeworks komt het moment waarop ik
-zelf steeds meer domein-specifieke code ga schrijven. Dit boek helpt mij om goed geinformeerde beslissingen
+Na een goede fundering met programmeertalen en frameworks te hebben opgebouwd ga ik tijdens de rest van mijn loopbaan als
+webdeveloper meer en meer domein-specifieke code schrijven. Dit boek helpt mij om goed geinformeerde beslissingen
 te nemen bij de keuze voor datastructuren en algoritmes. Als extra pluspunt zijn de voorbeelden geschreven in Ruby, Javascript
 en Python waardoor ik kan schakelen tussen verschillende programmeertalen.
