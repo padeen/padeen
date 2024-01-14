@@ -1,12 +1,13 @@
 {{ define "main" }}
 <div class="flex flex-col space-y-6">
 <h1>{{ .Title }}</h1>
-{{ .Content }} {{ range first 2 .Pages }}
+{{ .Content }} 
+{{ range first 2 .Pages }}
 <h3>{{ .Title }}</h3>
-<div class="flex flex-row items-center justify-items space-x-8">
+<div class="flex flex-col items-start justify-items md:flex-row md:space-x-3.5">
 <img
   src="{{ .Params.Bookcover }}"
-  class="mx-auto h-48 object-cover"
+  class="mx-auto object-cover h-72 md:h-48"
   alt="{{ .Params.Bookcoveralt }}"
 />
 <p>{{ .Summary }}</p>
@@ -15,16 +16,14 @@
 <h2>Boeken 2023</h2>
 <p>Boeken die de concepten te versterken.</p>
 {{ range last 2 .Pages }}
-<div class="flex flex-col space-y-6">
 <h3>{{ .Title }}</h3>
-<div class="flex flex-row space-x-8">
+<div class="flex flex-col items-start justify-items md:flex-row md:space-x-3.5">
 <img
   src="{{ .Params.Bookcover }}"
-  class="mx-auto h-48 object-cover"
+  class="mx-auto object-cover h-72 md:h-48 "
   alt="{{ .Params.Bookcoveralt }}"
 />
 <p>{{ .Summary }}</p>
-</div>
 </div>
 </div>
 {{ end }} {{ end }}
