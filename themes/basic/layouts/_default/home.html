@@ -1,7 +1,8 @@
 {{ define "main" }}
+  <div class="flex flex-col space-y-9">
   <h1>Projecten</h1>
-  {{ .Content }} 
   {{ range where site.RegularPages "Section" "projecten"}}
+  <div class="flex flex-col space-y-3">
   <h3>{{ .Title }}</h3>
   <p>
     Tools: {{ range $index, $page := .Params.Technologies }} 
@@ -11,13 +12,16 @@
   </p>
   <p>{{ .Summary }}</p>
   <div class="flex flex-row text-xl space-x-2.5">
-    <div class="flex flex-row">
-    <a href="{{ .Params.Live }}"><img class="h-6" src="{{"light.svg"|relURL}}"></a>
-    <a href="{{ .Params.Live }}">Live</a>
+    <div class="group flex flex-row">
+    <a class="group-hover:underline" href="{{ .Params.Live }}"><img class="h-6" src="{{"light.svg"|relURL}}"></a>
+    <a class="group-hover:underline text-blue-500" href="{{ .Params.Live }}">Live</a>
     </div>
-    <div class="flex flex-row space-x-1.5">
-    <a href="{{ .Params.Github }}"><img class="h-6" src="{{"github.svg"|relURL}}"></a>
-    <a href="{{ .Params.Github }}">Github</a>
+    <div class="group flex flex-row space-x-1.5">
+    <a class="group-hover:underline" href="{{ .Params.Github }}"><img class="h-6" src="{{"github.svg"|relURL}}">
+    <a class="group-hover:underline text-blue-500" href="{{ .Params.Github }}">Github</a>
     </div>
   </div>
-{{ end }} {{ end }}
+  </div>
+{{ end }} 
+</div>
+{{ end }}
