@@ -4,17 +4,20 @@
   {{ range where site.RegularPages "Section" "projecten"}}
   <h3>{{ .Title }}</h3>
   <p>
-    Tools: {{ $len := (len .Params.Technologies) }} 
-    {{ range first (sub $len 1) .Params.Technologies }} 
-    {{ . }}, 
+    Tools: {{ range $index, $page := .Params.Technologies }} 
+    {{- if $index -}}, {{ end }}
+    {{- . -}}
     {{ end }} 
-    {{ range last 1 .Params.Technologies }} 
-    {{ . }} 
-    {{ end }}
   </p>
   <p>{{ .Summary }}</p>
-  <div class="flex flex-row space-x-2.5">
+  <div class="flex flex-row text-xl space-x-2.5">
+    <div class="flex flex-row">
+    <a href="{{ .Params.Live }}"><img class="h-6" src="{{"light.svg"|relURL}}"></a>
     <a href="{{ .Params.Live }}">Live</a>
+    </div>
+    <div class="flex flex-row space-x-1.5">
+    <a href="{{ .Params.Github }}"><img class="h-6" src="{{"github.svg"|relURL}}"></a>
     <a href="{{ .Params.Github }}">Github</a>
+    </div>
   </div>
 {{ end }} {{ end }}
