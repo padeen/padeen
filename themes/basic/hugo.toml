@@ -8,7 +8,7 @@ pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Pragmatische Boekenplank 2024'
+name = 'Pragmatische Boekenplank'
 pageRef = '/boekenplank'
 weight = 20
 
