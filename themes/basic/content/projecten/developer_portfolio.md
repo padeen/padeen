@@ -10,5 +10,5 @@ github = 'https://github.com/padeen/padeen'
 Content gedreven website om gemaakte projecten te presenteren aan bedrijven. Het onderdeel Pragmatische 
 Boekenplank laat zien op welke manier ik mezelf verder wil ontwikkelen in 2024. 
 
-- Supersnelle laadtijden doordat de content statisch wordt aangeleverd via een CDN.
+- Supersnelle response doordat de content statisch wordt aangeleverd via een CDN.
 - Zeer net uiterlijk door middel van een zelf ontworpen template.
