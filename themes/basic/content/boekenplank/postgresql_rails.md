@@ -8,6 +8,6 @@ bookcover_alt = 'High Performance PostgreSQL for Rails'
 +++
 
 De interactie tussen de applicatie en de database wordt in mijn applicaties vervuld door Active Record of
-Ecto. Dit boek helpt mij om inzicht te krijgen in hoe domein-specifieke regels van mijn applicaties geimplementeerd worden
-in de database. De volgende stap is het optimaliseren van de database om de prestaties van mijn applicaties te verbeteren. 
+Ecto. Dit boek helpt mij om inzicht te krijgen in hoe domein-specifieke regels van mijn applicaties worden geimplementeerd
+in de database. De volgende stap is het optimaliseren van de database om de prestaties van mijn applicaties te maximaliseren. 
 Zoals wenselijk is wordt dit uitgelegd zonder grafische interface. Alle opdrachten worden uitgevoerd via de command line tool "psql".

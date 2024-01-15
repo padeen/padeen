@@ -10,5 +10,5 @@ live = 'https://bijbelstudie.ohmyweb.nl/eeuwig_gelukkig'
 
 Content gedreven website om persoonlijke bijbelstudie bij te houden. 
 
-- Makkelijk om te zoeken op sleutelwoorden via GREP omdat content statisch is.
 - Ruby script om HTML op te halen vanaf JW.org en te converteren naar Markdown.
+- Snel zoeken op sleutelwoorden via GREP omdat content statisch is.
