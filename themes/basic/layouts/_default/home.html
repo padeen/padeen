@@ -13,8 +13,10 @@
   <div id="projects">{{ .Content }}</div>
   <div class="flex flex-row text-xl space-x-2.5">
     <div class="group flex flex-row">
+    {{ if .Params.Live }}
     <a class="group-hover:underline" href="{{ .Params.Live }}" target="_blank"><img class="h-6" src="{{"light.svg"|relURL}}"></a>
     <a class="group-hover:underline text-blue-500" href="{{ .Params.Live }}" target="_blank">Live</a>
+    {{ end }}
     </div>
     <div class="group flex flex-row space-x-1.5">
     <a class="group-hover:underline" href="{{ .Params.Github }}" target="_blank"><img class="h-6" src="{{"github.svg"|relURL}}">
