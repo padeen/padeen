@@ -481,7 +481,6 @@ li {
 
 #projects > ul {
   margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
   list-style-type: '- ';
   padding-left: 0.5rem;
 }
@@ -597,14 +596,6 @@ a:hover {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .mx-2 {
@@ -726,10 +717,6 @@ a:hover {
      object-fit: cover;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -764,10 +751,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .md\:sticky {
-    position: sticky;
-  }
-
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
