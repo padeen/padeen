@@ -475,6 +475,17 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#projects > ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  list-style-type: '- ';
+  padding-left: 0.5rem;
+}
+
 a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;

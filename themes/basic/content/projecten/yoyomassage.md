@@ -10,5 +10,5 @@ github = 'https://github.com/padeen/yoyomassage'
 
 Promotionele website om bedrijf zichtbaar te maken op het web.
 
-- Gebruik gemaakt van Chatgtp voor copywriting.
+- Chatgtp voor copywriting.
 - Aantrekkelijk uiterlijk met een duidelijk herkenbaar kleurenthema.

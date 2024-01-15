@@ -10,7 +10,7 @@
     {{- . -}}
     {{ end }} 
   </p>
-  <p>{{ .Summary }}</p>
+  <div id="projects">{{ .Content }}</div>
   <div class="flex flex-row text-xl space-x-2.5">
     <div class="group flex flex-row">
     <a class="group-hover:underline" href="{{ .Params.Live }}"><img class="h-6" src="{{"light.svg"|relURL}}"></a>

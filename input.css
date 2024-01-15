@@ -18,8 +18,17 @@
     font-family: 'Montserrat', sans-serif;
     @apply text-3xl font-bold text-blue-400;
   }
+
   p {
     font-family: 'Montserrat', sans-serif;
+  }
+
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #projects > ul {
+    @apply pl-2 my-3 list-['-_'];
   }
 
   a {

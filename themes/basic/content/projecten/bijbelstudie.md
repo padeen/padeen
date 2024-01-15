@@ -4,7 +4,7 @@ date = 2024-01-08T17:02:05Z
 draft = false
 weight = 30
 technologies = ['Hugo', 'Go', 'Ruby', 'Tailwindcss']
-github = 'https://github.com/padeen/bijbelstudie'
+github = 'https://github.com/padeen/bijbelstudie/blob/main/ruby-scripts/grap-eeuwig.rb'
 live = 'https://bijbelstudie.ohmyweb.nl/eeuwig_gelukkig'
 +++
 
