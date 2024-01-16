@@ -5,7 +5,6 @@ draft = false
 weight = 10
 technologies = ['Elixir', 'Phoenix Liveview']
 live = 'https://padeen.vercel.app'
-github = 'https://github.com/padeen/chess_engine'
 +++
 
 Fullstack webapplicatie om het web te bekijken via alleen tekst. Via een grafische interface is het mogelijk

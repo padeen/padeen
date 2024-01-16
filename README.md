@@ -36,7 +36,7 @@ hugo new boekenplank/effective_haskell.md
 
 **With Docker and Docker-compose installed you can run these commands**
 
-Start container with Hugo dev server on port 1313 and Tailwind CLI for live reloading
+Start container with Hugo dev server on port 1313 and Tailwind CLI for live CSS reloading
 
 ```
 docker-compose up

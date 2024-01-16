@@ -19,8 +19,10 @@
     {{ end }}
     </div>
     <div class="group flex flex-row space-x-1.5">
+    {{ if .Params.Github }}
     <a class="group-hover:underline" href="{{ .Params.Github }}" target="_blank"><img class="h-6" src="{{"github.svg"|relURL}}">
     <a class="group-hover:underline text-blue-500" href="{{ .Params.Github }}" target="_blank">Github</a>
+    {{ end }}
     </div>
   </div>
   </div>
