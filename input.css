@@ -33,6 +33,6 @@
 
   a {
     font-family: 'Montserrat', sans-serif;
-    @apply font-bold hover:underline visited:text-blue-500;
+    @apply font-bold hover:underline text-blue-500 visited:text-blue-500;
   }
 }

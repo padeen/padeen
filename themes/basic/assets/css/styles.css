@@ -503,6 +503,8 @@ li {
 a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 a:visited {
@@ -623,6 +625,10 @@ a:hover {
 
 .z-50 {
   z-index: 50;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .mx-2 {

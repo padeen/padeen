@@ -1,4 +1,14 @@
 {{ define "main" }}
+  <header>
+    <p class="block text-4xl my-3.5 font-bold text-purple-400 md:text-5xl">{{ site.Title }}</p>
+    <div class="flex flex-col mt-6 text-xl space-y-1">
+      <p>Gedreven developer</p>
+      <p>|> Sterke fundamentals<span class="inline-block">(Docker, Frontend, Backend)</span></p>
+      <p>|> <span class="inline-block">Uitstekende taalvaardigheden</span>(Nederlands, Engels)</p>
+      <p>|> Klaar om die volgende upgrade te maken</p>
+    </div>
+  </header>
+  {{ partial "navigation.html" . }}
   <div class="flex flex-col space-y-9">
   <h1>Projecten</h1>
   {{ range where site.RegularPages "Section" "projecten"}}
