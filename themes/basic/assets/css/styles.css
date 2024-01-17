@@ -453,6 +453,13 @@ h1 {
   color: rgb(192 132 252 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.25rem;
@@ -460,6 +467,13 @@ h2 {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 h3 {
@@ -481,6 +495,7 @@ li {
 
 #projects > ul {
   margin-top: 0.75rem;
+  margin-left: 0.25rem;
   list-style-type: '- ';
   padding-left: 0.5rem;
 }
@@ -598,6 +613,18 @@ a:hover {
   --tw-backdrop-sepia:  ;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -623,6 +650,19 @@ a:hover {
   margin-bottom: 0.875rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -635,20 +675,12 @@ a:hover {
   display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-72 {
   height: 18rem;
 }
 
 .h-8 {
   height: 2rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .max-w-3xl {
@@ -695,6 +727,12 @@ a:hover {
   margin-left: calc(0.625rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -707,6 +745,16 @@ a:hover {
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
+.border-y-2 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
+}
+
 .bg-slate-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -715,6 +763,16 @@ a:hover {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -792,5 +850,15 @@ a:hover {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
