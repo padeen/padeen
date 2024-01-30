@@ -4,7 +4,8 @@ date = 2024-01-08T17:04:59Z
 draft = false
 weight = 10
 technologies = ['Elixir', 'Phoenix Liveview']
-live = 'https://padeen.vercel.app'
+github = 'https://github.com/padeen/newsleezer'
+live = 'https://newsleezer.onrender.com/'
 +++
 
 Fullstack webapplicatie om het web te bekijken via alleen tekst. Via een grafische interface is het mogelijk
