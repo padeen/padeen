@@ -1,5 +1,5 @@
 +++
-title = 'Newsleezer'
+title = 'Newsleezer - Proof of Concept'
 date = 2024-01-08T17:04:59Z
 draft = false
 weight = 10
