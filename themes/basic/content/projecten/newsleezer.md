@@ -5,7 +5,6 @@ draft = false
 weight = 10
 technologies = ['Elixir', 'Phoenix Liveview']
 github = 'https://github.com/padeen/newsleezer'
-live = 'https://newsleezer.onrender.com/'
 +++
 
 Fullstack webapplicatie om het web te bekijken via alleen tekst. Via een grafische interface is het mogelijk
